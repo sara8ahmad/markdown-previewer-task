@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif ,'Courier New', Courier, monospace,"Akaya Telivigala", monospace;
+    font-size: 22px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 90vh;
+    width: 100%;
+    text-align: center;
+    background-color:white;
+    padding: 5px 0;
+}
+h1{
+    color: #262834;
+    font-size: 22px;
+    padding: 8px;
+}
+.container{
+    width: 60%;
+    border: solid black 3px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.btns{
+   /* display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-template-rows: minmax(60px, auto);*/
+    display: flex;
+    justify-content: center;
+}
+.btns button{
+    width: 300px;
+    padding: 8px;
+    margin: 5px;
+    background-color: #262834;
+    color: #e3e3e3;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    font-weight: 500;
+}
+.btns button.btn{
+    background-color: #a3b2db;
+    color: #262834;
+    font-weight: bold;
+}
+/*
+.btns button:nth-of-type(1){
+    grid-column: 1/2;
+    grid-row: 1;
+}
+.btns button:nth-of-type(2){
+    grid-column: 2/3;
+    grid-row: 1;
+}
+.btns button:nth-of-type(3){
+    grid-column: 3/4;
+    grid-row: 1;
+}
+*/
+
+textarea{
+    width: calc(100% - 10px);
+    height: calc(100vh - 150px);
+    border: none;
+    outline: none;
+    background-color: white;
+    resize: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    color: black;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: 5px 5px 0px 5px;
+    letter-spacing: 0.2px;
+    font-family: monospace, sans-serif;
+    font-size: 20px;
+}
+
+.color{
+    color: white;
+}
+.background{
+    background-color: white;
+}
+
+.position{
+    text-align: left;
+    margin-bottom: 20px;
+    background-color: #E8E8E8;
+    border-radius: 10px;
+    padding: 20px;
+}
